@@ -26,12 +26,12 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
-  color: white !important;
+  background-color: #67cbff !important;
+  color: black !important;
 }
 
 .category-btn:hover span{
-  color: white !important;
+  color: black !important;
 }
 
 .react-player {
