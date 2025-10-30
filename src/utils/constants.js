@@ -11,27 +11,29 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import VideoLibraryRoundedIcon from '@mui/icons-material/VideoLibraryRounded';
+import FeedbackRoundedIcon from '@mui/icons-material/FeedbackRounded';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = '../public/logo-32x32.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Match', icon: <VideoLibraryRoundedIcon />, },
+  { name: 'Feedback', icon: <FeedbackRoundedIcon />, },
+  // { name: 'Coding', icon: <CodeIcon />, },
+  // { name: 'ReactJS', icon: <CodeIcon />, },
+  // { name: 'NextJS', icon: <CodeIcon />, },
+  // { name: 'Music', icon: <MusicNoteIcon /> },
+  // { name: 'Education', icon: <SchoolIcon />, },
+  // { name: 'Podcast', icon: <GraphicEqIcon />, },
+  // { name: 'Movie', icon: <OndemandVideoIcon />, },
+  // { name: 'Gaming', icon: <SportsEsportsIcon />, },
+  // { name: 'Live', icon: <LiveTvIcon />, },
+  // { name: 'Sport', icon: <FitnessCenterIcon />, },
+  // { name: 'Fashion', icon: <CheckroomIcon />, },
+  // { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
+  // { name: 'Comedy', icon: <TheaterComedyIcon />, },
+  // { name: 'Gym', icon: <FitnessCenterIcon />, },
+  // { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
