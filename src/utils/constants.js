@@ -11,14 +11,14 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
-import LightbulbIcon from '@mui/icons-material/Lightbulb';
+import VideoLibraryRoundedIcon from '@mui/icons-material/VideoLibraryRounded';
+import FeedbackRoundedIcon from '@mui/icons-material/FeedbackRounded';
 
 export const logo = '../public/logo-32x32.png';
 
 export const categories = [
-  { name: 'Match', icon: <SportsSoccerIcon />, },
-  { name: 'Play Feedback', icon: <LightbulbIcon />, },
+  { name: 'Match', icon: <VideoLibraryRoundedIcon />, },
+  { name: 'Feedback', icon: <FeedbackRoundedIcon />, },
   // { name: 'Coding', icon: <CodeIcon />, },
   // { name: 'ReactJS', icon: <CodeIcon />, },
   // { name: 'NextJS', icon: <CodeIcon />, },
